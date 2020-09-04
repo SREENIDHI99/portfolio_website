@@ -1,0 +1,13 @@
+ @media (min-width:1024px){
+   .top-navbar{
+       display: inline-flex !important;
+   }
+}
+
+.gradientontop {
+    /* position: absolute; */
+    top: 0;
+    /* overflow: hidden; */
+    background-image: -webkit-gradiant(linear,left top,right top,color-stop(5%,#0f0f0f),color-stop(33%,hsla(0,0%,6%,0)),color-stop(66%,hsla(0,0%,6%,0)),color-stop(95%,#0f0f0f));
+    background-image: linear-gradient(90deg,#0f0f0f 5%,hsla(0,0%,6%,0) 33%,hsla(0,0%,6%,0) 66%,#0f0f0f 95%);
+}
